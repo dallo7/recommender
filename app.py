@@ -870,5 +870,5 @@ def update_output(n_clicks_add, n_clicks_remove, phone, n_clicksBuy):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8989)
+    app.run_server(debug=True, port=8050)
     # app.run_server(debug=True, host="192.168.11.249", port=8852)
