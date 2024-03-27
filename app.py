@@ -24,6 +24,8 @@ price_per_item7 = 500
 app = dash.Dash(__name__, title="Recommend cars", external_stylesheets=[dbc.themes.BOOTSTRAP],
                 suppress_callback_exceptions=True)
 
+server = app.server
+
 login = dbc.Row([
     dbc.Col([
         dbc.Row([
